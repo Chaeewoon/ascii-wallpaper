@@ -18,3 +18,10 @@ RAMPS = {
 # Defaults for the converter
 DEFAULT_COLS = 100
 DEFAULT_CHAR_RATIO = 2.0  # characters are about 2x taller than wide
+
+# Color settings
+COLOR_MODES = ["none", "original", "mono", "gradient"]
+DEFAULT_COLOR_MODE = "original"
+DEFAULT_MONO_COLOR = (0, 255, 70)  # matrix green
+DEFAULT_GRADIENT = [(150, 60, 255), (0, 220, 220)]  # purple -> cyan, dark to light
+DEFAULT_BG = (0, 0, 0)  # used by the PNG renderer later
